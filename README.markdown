@@ -1,5 +1,5 @@
-# 
+# To Do list
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/raymond96/pen/pormvEQ](https://codepen.io/raymond96/pen/pormvEQ).
+Visit the page here: https://rahulraymond.github.io/todolist/
 
 
