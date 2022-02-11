@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <h1 id="myHeader">To Do List</h1>
+
+  <!-- STEPs 1 and 2 below here  -->
+  <input type="button" id="addButton" value="ADD" onclick="addTask()"></input>
+  <input type="text" placeholder="Add Tasks" id='input'></input>
+
+  <hr>
+
+  <ul id="tasks">
+
+    <li>
+
+      <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+
+      <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+
+      make todo list
+
+    </li>
+
+  </ul>
+
+  <hr>
+
+  <!-- STEPs 8 and 9 below here  -->
+  <div id="divabout"></div>
+  <button class="btn" onclick="doAbout()">About</button>
+  <button class="btn" onclick="clearAbout()">Clear</button>
+
+
+  <!-- STEP 13 below here  -->
+  <!-- partial -->
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/* remove indentation of list items */
+body{
+   background-color: #c3c3c3;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+   padding-left: 0;
+}
+
+/* remove traditional bullet from front of list items */
+
+/* Step 3 below here */
+
+li {
+   list-style-type: none;
+   background-color: #eee;
+   border: 1px solid #c3c3c3;
+   padding: 10px 0px 10px 5px;
+  font-size: 20px;
+}
+
+
+/* Step 5 below here */
+
+.done {
+  background-color: green;
+
+}
+.remove{
+   background-color: red;
+}
+
+/* mark task as finished */
+/* Step 6 below here */
+
+li.finished {
+ color: white;
+  background-color: gray;
+  text-decoration: line-through;
+
+}
+
+input[type="text"] {
+   font-size: 18px;
+   width: 97%;
+   padding: 10px;
+}
+
+input[type="button"] {
+   font-size: 1.2em;
+   margin: -6px 4px 0px 0px;
+}
+
+#addButton {
+   padding: 10px;
+   border:none;
+   border-radius: 6px;
+   background-color: antiquewhite;
+   margin-bottom: 5px;
+   color:black
+}
+#addButton:hover{
+   color:rgb(25, 14, 172);
+   background-color: aqua;
+}
+/* Step 10 below here */
+
+.aboutcolor {
+  background-color: yellow;
+
+}
+
+/* Step 12 below here */
+
+#divabout {
+   width:300px;
+  font-size: 20px;
+  margin: 10px;
+}
+.btn{
+   background-color: rgb(201, 218, 212);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: medium;
+   border-radius: 4px;
+   border: 1px solid white;
+
+}
+
+.btn:hover{
+   background-color: aqua;
+}
